@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>AWSSDK_</id>
+        <version>1.0.0</version>
+        <authors>Brian Friesen</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A version of AWSSDK that only contains a .NET 3.5 version of AWSSDK.dll.</description>
+    </metadata>
+    <files>
+        <file src="lib\net35\AWSSDK.dll" target="lib\net35\AWSSDK.dll" />
+        <file src="lib\net35\AWSSDK.pdb" target="lib\net35\AWSSDK.pdb" />
+    </files>
+</package>

@@ -34,11 +34,11 @@
   <ItemGroup>
     <Reference Include="AWSSDK, Version=2.3.42.0, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\AWSSDK.2.3.42.0\lib\net35\AWSSDK.dll</HintPath>
+      <HintPath>..\packages\AWSSDK_.1.0.0\lib\net35\AWSSDK.dll</HintPath>
     </Reference>
     <Reference Include="DotNet40Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNet40Library.1.0.0\lib\net40\DotNet40Library.dll</HintPath>
+      <HintPath>..\packages\DotNet40Library.1.1.0\lib\net40\DotNet40Library.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,7 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
